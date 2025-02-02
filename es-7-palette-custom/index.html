@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'tahiti': '#3ab7bf',
+                        'silver': '#ecebff',
+                        'bubble-gum': '#ff77e9',
+                        'bermuda': '#78dcca',
+                        'metal': '#565584'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-metal">
+    <h1 class="m-10 text-center  text-xl ">Palette custom!</h1>
+    <button class="bg-tahiti text-black px-10 m-6 rounded-lg ">Tahiti</button>
+    <button class="bg-silver text-black px-6 m-6 rounded-lg">Silver</button>
+    <button class="bg-bubble-gum text-black px-6 m-6 rounded-lg">bubble-gum</button>
+    <button class="bg-bermuda text-white px-6 m-6 rounded-lg">bermuda</button>
+
+</body>
+
+</html>
