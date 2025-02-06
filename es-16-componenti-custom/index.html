@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                sky: '#0284c7'
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer components {
+            .btn {
+                border: 2px solid black;
+                padding: 10px 20px;
+                border-radius:5px;
+            }
+        }
+
+      </style>
+</head>
+<body>
+    <div class="p-4">
+        <button class="btn">Cliccami!</button>
+    </div>
+</body>
+</html>
